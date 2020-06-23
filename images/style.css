@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.bg
+{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(images/XD0A5226.JPG);
+    background-size: cover;
+    background-position:center ;
+    position: absolute;
+    z-index: -1;
+}
+header
+{
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+h3
+{
+    color: cornsilk;
+}
