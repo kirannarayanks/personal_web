@@ -212,5 +212,37 @@ header nav ul li a
     font-size: 24px;
     display: block;
 }
+    .welcome
+{
+    padding-top: 28em;
+    padding-left: 3em;
+    height: 100%;
+    width: 100%;
+    top: 30em;
+    left: 32em;
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.welcome h2
+{
+    transition: 0.5s ease-in;
+}
+.welcome h2:hover
+{
+    color:rgb(247, 0, 255);
+}
+.fab
+{
+    color: white;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 25px;
+    transition: 0.4s ease-out;
+}
+.fab:hover
+{
+    color: rgba(0, 238, 255, 0.918);
+}
 
 }
